@@ -1,3 +1,10 @@
+Monday 12/10
+  - I am going to start by having user authentication with google and facebook.
+    - using this guide (https://hackernoon.com/m-e-r-n-stack-application-using-passport-for-authentication-920b1140a134)
+  
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
