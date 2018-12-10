@@ -1,7 +1,11 @@
 Monday 12/10
   - I am going to start by having user authentication with google and facebook.
     - using this guide (https://hackernoon.com/m-e-r-n-stack-application-using-passport-for-authentication-920b1140a134)
-  
+  - Went through this guide (https://hackernoon.com/deploy-your-node-js-app-in-production-and-use-bitbucket-to-automate-your-deployment-50b07b18914c) to make a server and put it in a different folder than the client side. Its for unix :/ 
+    - Had an issue adding SSH keys 
+      --- had to run powershell as admin and type (Set-Service ssh-agent -StartupType Manual) before able to start ssh and add the key
+  - Have to run two servers, one for the backend redirect ( <a href="http://localhost:6001/auth/google" class="button">) and one for the client side that gets the token. Now I have to figure out how to access the id of indiviual users so they get served the correct data. 
+
 
 
 
